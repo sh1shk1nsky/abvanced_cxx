@@ -1,10 +1,10 @@
-#include "expressionfactory.h"
+#include "expressionfactory.hpp"
 
 #include <cmath>
 #include <stdexcept>
 
-#include "constant.h"
-#include "variable.h"
+#include "constant.hpp"
+#include "variable.hpp"
 
 // Реализация методов фабрики
 ExpressionFactory::ExpressionFactory() {

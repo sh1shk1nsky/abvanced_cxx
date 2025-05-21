@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "type_map.h"
+#include "type_map.hpp"
 
 struct DataA {
   std::string value;

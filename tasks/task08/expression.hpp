@@ -1,5 +1,5 @@
-#ifndef EXPRESSION_H
-#define EXPRESSION_H
+#ifndef EXPRESSION_HPP
+#define EXPRESSION_HPP
 
 #include <cmath>
 #include <iostream>
@@ -17,4 +17,4 @@ class Expression {
   virtual void release() = 0;
 };
 
-#endif  // EXPRESSION_H
+#endif  // EXPRESSION_HPP

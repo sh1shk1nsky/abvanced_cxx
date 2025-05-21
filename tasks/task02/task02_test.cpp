@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "type_list.h"
+#include "type_list.hpp"
 
 int main() {
   // Тестирование реализации TypeList

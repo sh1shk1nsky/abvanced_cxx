@@ -1,5 +1,5 @@
-#ifndef EXPRESSION_FACTORY_H
-#define EXPRESSION_FACTORY_H
+#ifndef EXPRESSION_FACTORY_HPP
+#define EXPRESSION_FACTORY_HPP
 
 #include <map>
 #include <string>
@@ -26,4 +26,4 @@ class ExpressionFactory {
   void unregisterConstant(Constant* c);
 };
 
-#endif  // EXPRESSION_FACTORY_H
+#endif  // EXPRESSION_FACTORY_HPP

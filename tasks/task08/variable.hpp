@@ -1,7 +1,7 @@
 #ifndef VARIABLE_HPP
 #define VARIABLE_HPP
 
-#include "expression.h"
+#include "expression.hpp"
 class ExpressionFactory;  // Forward declaration
 
 class Variable : public Expression {

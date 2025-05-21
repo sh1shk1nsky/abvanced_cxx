@@ -1,7 +1,7 @@
-#ifndef ADDITION_H
-#define ADDITION_H
+#ifndef ADDITION_HPP
+#define ADDITION_HPP
 
-#include "expression.h"
+#include "expression.hpp"
 
 class Addition : public Expression {
  private:
@@ -36,4 +36,4 @@ class Addition : public Expression {
   void release() override {}
 };
 
-#endif  // ADDITION_H
+#endif  // ADDITION_HPP

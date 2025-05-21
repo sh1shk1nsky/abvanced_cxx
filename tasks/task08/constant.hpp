@@ -1,8 +1,8 @@
-#ifndef CONSTANT_H
-#define CONSTANT_H
+#ifndef CONSTANT_HPP
+#define CONSTANT_HPP
 
-#include "expression.h"
-#include "expressionfactory.h"
+#include "expression.hpp"
+#include "expressionfactory.hpp"
 
 class Constant : public Expression {
  private:

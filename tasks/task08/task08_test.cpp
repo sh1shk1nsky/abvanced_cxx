@@ -1,8 +1,8 @@
-#include "addition.h"
-#include "constant.h"
-#include "expression.h"
-#include "expressionfactory.h"
-#include "variable.h"
+#include "addition.hpp"
+#include "constant.hpp"
+#include "expression.hpp"
+#include "expressionfactory.hpp"
+#include "variable.hpp"
 
 int main() {
   ExpressionFactory& factory = ExpressionFactory::getInstance();
